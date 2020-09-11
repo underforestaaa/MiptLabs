@@ -1,0 +1,94 @@
+\documentclass[a4paper, 10pt]{article}%тип документа
+
+%Русский язык
+\usepackage[T2A]{fontenc} %кодировка
+\usepackage[utf8]{inputenc} %кодировка исходного кода
+\usepackage[english,russian]{babel} %локализация и переносы
+
+%отступы 
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=3cm,bindingoffset=0cm]{geometry}
+
+%Вставка картинок
+\usepackage{graphicx}
+\graphicspath{}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg, .jpeg}
+
+%Таблицы
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{booktabs}
+
+%Графики
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+
+%Математика
+\usepackage{amsmath, amsfonts, amssymb, amsthm, mathtools}
+
+%Заголовок
+\author{Нугманов Булат \\ Подлесный Артём \\ группа 827}
+\title{Работа 1.4.8 \\ Измерение модуля Юнга методом 
+акустического резонанса}
+
+\begin{document}
+
+\begin{table}[]
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+\rowcolor[HTML]{EFEFEF} 
+$\Delta R$, $\Omega$ & 0,01  & 0,02 & 0,03 & 0,04 & 0,05  & 0,06  & 0,07  & 0,09  \\ \hline
+$t$, $c$             & 6,33  & 15,1 & 23,2 & 30,2 & 40,64 & 47,36 & 57,42 & 76,89 \\ \hline
+\rowcolor[HTML]{EFEFEF} 
+                     & 0,11  & 0,12 & 0,13 & 0,14 & 0,15  & 0,16  & 0,17  & 0,20  \\ \hline
+                     & 95,23 & 103  & 111  & 120  & 128,5 & 139,1 & 148,1 & 176,4 \\ \hline
+\end{tabular}
+\end{table}
+Алюминий\\
+\begin{table}[]
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\rowcolor[HTML]{EFEFEF} 
+$\Delta R$, $\Omega$ & 0,02   & 0,04 & 0,06 & 0,08 & 0,10  & 0,12  & 0,14  & 0,16  & 0,18  & 0,20  \\ \hline
+$t$, $c$             & 15,39  & 34,6 & 56   & 78,8 & 103,3 & 127,2 & 154,7 & 177,9 & 205,1 & 231,3 \\ \hline
+\rowcolor[HTML]{EFEFEF} 
+$\Delta R$, $\Omega$ & 0,22   & 0,24 & 0,26 & 0,28 & 0,30  & 0,32  & 0,34  & 0,36  & 0,38  & 0,41  \\ \hline
+$t$, $c$             & 257,89 & 285  & 313  & 342  & 369,6 & 396,6 & 426,6 & 455,1 & 484,5 & 529,2 \\ \hline
+\end{tabular}
+\end{table}
+Латунь\\
+\begin{table}[h]
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\rowcolor[HTML]{EFEFEF} 
+$\Delta R$, $\Omega$ & 0,02  & 0,04 & 0,06 & 0,08 & 0,10  & 0,12  & 0,14  & 0,16  & 0,18  \\ \hline
+$t$, $c$             & 14,99 & 35   & 54,1 & 77,9 & 100,6 & 126,7 & 152,4 & 179,7 & 206,6 \\ \hline
+\rowcolor[HTML]{EFEFEF} 
+$\Delta R$, $\Omega$ & 0,20  & 0,22 & 0,24 & 0,26 & 0,28  & 0,30  & 0,32  & 0,34  & 0,36  \\ \hline
+$t$, $c$             & 234,2 & 264  & 290  & 332  & 363,7 & 391   & 421,5 & 451,5 & 482   \\ \hline
+\end{tabular}
+\end{table}
+Железо
+\begin{table}[h!]
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\rowcolor[HTML]{EFEFEF} 
+$\Delta R$, $\Omega$ & 0,01   & 0,02 & 0,03 & 0,04 & 0,05  & 0,06  & 0,07  & 0,09  & 0,10  & 0,11  & 0,13  \\ \hline
+$t$, $c$             & 5,84   & 13,8 & 25,7 & 37,2 & 49,62 & 62,15 & 75,12 & 101,4 & 114,9 & 127,9 & 154,7 \\ \hline
+\rowcolor[HTML]{EFEFEF} 
+$\Delta R$, $\Omega$ & 0,15   & 0,17 & 0,19 & 0,21 & 0,23  & 0,25  & 0,27  & 0,29  & 0,31  & 0,33  & 0,35  \\ \hline
+$t$, $c$             & 183,62 & 211  & 239  & 267  & 298,5 & 325,1 & 354,4 & 383,4 & 413,4 & 443,7 & 473,7 \\ \hline
+\end{tabular}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
