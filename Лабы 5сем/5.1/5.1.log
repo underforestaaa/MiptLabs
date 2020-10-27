@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.1)  6 OCT 2020 23:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.1)  26 OCT 2020 19:03
 entering extended mode
-**./2.2.tex
-(2.2.tex
+**./5.1.tex
+(5.1.tex
 LaTeX2e <2018-04-01> patch level 5
 
 ("C:\Users\MSI1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\extsizes\extarticle
@@ -965,8 +965,8 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen270
 \l_MT_above_shortintertext_sep=\dimen271
 \l_MT_below_shortintertext_sep=\dimen272
-) (2.2.aux)
-\openout1 = `2.2.aux'.
+) (5.1.aux)
+\openout1 = `5.1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
@@ -1105,85 +1105,57 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 ("C:\Users\MSI1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<spv.png, id=4, 154.176pt x 189.70876pt>
-File: spv.png Graphic file (type png)
-<use spv.png>
-Package pdftex.def Info: spv.png  used on input line 47.
-(pdftex.def)             Requested size: 138.74298pt x 170.71652pt.
+<ust.png, id=4, 312.56775pt x 184.89075pt>
+File: ust.png Graphic file (type png)
+<use ust.png>
+Package pdftex.def Info: ust.png  used on input line 58.
+(pdftex.def)             Requested size: 435.32422pt x 257.50517pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1
 
-{C:/Users/MSI1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./spv.png>]
-<ust.png, id=22, 225.84375pt x 186.6975pt>
-File: ust.png Graphic file (type png)
-<use ust.png>
-Package pdftex.def Info: ust.png  used on input line 73.
-(pdftex.def)             Requested size: 338.58632pt x 279.93445pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<gr1.png, id=23, 594.42075pt x 464.33475pt>
-File: gr1.png Graphic file (type png)
-<use gr1.png>
-Package pdftex.def Info: gr1.png  used on input line 119.
-(pdftex.def)             Requested size: 435.32422pt x 340.05974pt.
+{C:/Users/MSI1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2 <./ust.png>] [3]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4 <./gr1.png>]
-<gr2.png, id=35, 601.64775pt x 479.99326pt>
-File: gr2.png Graphic file (type png)
-<use gr2.png>
-Package pdftex.def Info: gr2.png  used on input line 170.
-(pdftex.def)             Requested size: 435.32422pt x 347.30872pt.
+[2 <./ust.png>]
+<gr.png, id=24, 572.73975pt x 477.58424pt>
+File: gr.png Graphic file (type png)
+<use gr.png>
+Package pdftex.def Info: gr.png  used on input line 135.
+(pdftex.def)             Requested size: 435.32422pt x 363.00423pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<gr3.png, id=36, 602.85225pt x 476.37975pt>
-File: gr3.png Graphic file (type png)
-<use gr3.png>
-Package pdftex.def Info: gr3.png  used on input line 183.
-(pdftex.def)             Requested size: 435.32422pt x 343.99626pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5] [6 <./gr2.png>] [7 <./gr3.png>] (2.2.aux) ) 
+[3] [4 <./gr.png>] [5] (5.1.aux) ) 
 Here is how much of TeX's memory you used:
- 25738 strings out of 492970
- 637828 string characters out of 3127038
- 827299 words of memory out of 3000000
- 29140 multiletter control sequences out of 15000+200000
- 16446 words of font info for 48 fonts, out of 3000000 for 9000
+ 25732 strings out of 492970
+ 637815 string characters out of 3127038
+ 829299 words of memory out of 3000000
+ 29138 multiletter control sequences out of 15000+200000
+ 18718 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,96p,5368b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\MSI1\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk> <C:\Users\MSI1\AppData\L
-ocal\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk> <C:\Users\MSI1\Ap
-pData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk> <C:\Users\
-MSI1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk> <C:
-\Users\MSI1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1728.
-pk> <C:\Users\MSI1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\la
-rm2488.pk><C:/Users/MSI1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmex10.pfb><C:/Users/MSI1/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/MSI1/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/MSI1/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/MSI1/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/M
-SI1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-<C:/Users/MSI1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr5.pfb><C:/Users/MSI1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr7.pfb><C:/Users/MSI1/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Users/MSI1/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on 2.2.pdf (7 pages, 299775 bytes).
+ 62i,14n,96p,2078b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\MSI1\AppData\Local\MiKTeX\2.9\font
+s\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk> <C:\Users\MSI1\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk> <C:\Users\MSI1\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk> <C:\Users\MSI1\AppData\
+Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1728.pk> <C:\Users\MSI1\A
+ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm2488.pk><C:/Users/
+MSI1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b><C:/Users/MSI1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb><C:/Users/MSI1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb><C:/Users/MSI1/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/MSI1/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/MSI1/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/MSI1/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on 5.1.pdf (5 pages, 188102 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
+ 263 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
