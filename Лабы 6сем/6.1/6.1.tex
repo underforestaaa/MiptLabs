@@ -1,0 +1,145 @@
+\documentclass[a4paper, 14pt]{extarticle}%тип документа
+
+%Русский язык
+\usepackage[T2A]{fontenc} %кодировка
+\usepackage[utf8]{inputenc} %кодировка исходного кода
+\usepackage[english,russian]{babel} %локализация и переносы
+
+%отступы 
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=3cm,bindingoffset=0cm]{geometry}
+
+%Вставка картинок
+\usepackage{graphicx}
+\usepackage{wrapfig, caption}
+\graphicspath{}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg, .jpeg}
+\newcommand\ECaption[1]{%
+     \captionsetup{font=footnotesize}%
+     \caption{#1}}
+
+%Таблицы
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{booktabs}
+
+%Графики
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+
+%Математика
+\usepackage{amsmath, amsfonts, amssymb, amsthm, mathtools}
+
+%Заголовок
+\author{Подлесный Артём \\ группа 827}
+\title{Работа 2 \\ ИЗУЧЕНИЕ ВОЛЬТ-АМПЕРНОЙ ХАРАКТЕРИСТИКИ
+ЛАВИННОГО ФОТОДИОДА С ОТРИЦАТЕЛЬНОЙ
+ОБРАТНОЙ СВЯЗЬЮ}
+
+\begin{document}
+
+\begin{table}[]
+\begin{tabular}{|
+>{\columncolor[HTML]{9698ED}}c |c|c|c|}
+\hline
+№  & \cellcolor[HTML]{9698ED}$U$, $B$ & \cellcolor[HTML]{9698ED}$I$, $c^{-1}$ & \cellcolor[HTML]{9698ED}$\sigma_{I}$, $c^{-1}$ \\ \hline
+1  & 0                                & 146631                                &                                                \\ \hline
+2  & 0.5                              & 570                                   & 5.3                                            \\ \hline
+3  & 1                                & 256                                   & 3.6                                            \\ \hline
+4  & 1.5                              & 278                                   & 3.7                                            \\ \hline
+5  & 2                                & 650                                   & 5.7                                            \\ \hline
+6  & 2.5                              & 1410                                  & 8.4                                            \\ \hline
+7  & 3                                & 2600                                  & 11.4                                           \\ \hline
+8  & 3.5                              & 3867                                  & 13.9                                           \\ \hline
+9  & 4                                & 4479                                  & 15.0                                           \\ \hline
+10 & 4.5                              & 4065                                  & 14.3                                           \\ \hline
+11 & 5                                & 2912                                  & 12.1                                           \\ \hline
+12 & 5.5                              & 1665                                  & 9.1                                            \\ \hline
+13 & 6                                & 824                                   & 6.4                                            \\ \hline
+14 & 6.5                              & 357                                   & 4.2                                            \\ \hline
+15 & 7                                & 169                                   & 2.9                                            \\ \hline
+16 & 7.5                              & 93.8                                  & 2.2                                            \\ \hline
+17 & 8                                & 63.7                                  & 1.8                                            \\ \hline
+18 & 8.5                              & 53.4                                  & 1.6                                            \\ \hline
+19 & 9                                & 41.4                                  & 1.4                                            \\ \hline
+20 & 9.5                              & 31.3                                  & 1.3                                            \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.75\textwidth]{gr1}
+\end{center}
+\end{figure}
+
+\begin{table}[]
+\begin{tabular}{|
+>{\columncolor[HTML]{CBCEFB}}c |c|c|c|c|c|c|c|c|}
+\hline
+\cellcolor[HTML]{9698ED} & \cellcolor[HTML]{9698ED}1 Образец           & \cellcolor[HTML]{9698ED}              & \cellcolor[HTML]{9698ED}2 Образец           & \cellcolor[HTML]{9698ED}              & \cellcolor[HTML]{9698ED}3 Образец           & \cellcolor[HTML]{9698ED}              & \cellcolor[HTML]{9698ED}4 Образец           & \cellcolor[HTML]{9698ED}              \\ \hline
+№                        & \cellcolor[HTML]{CBCEFB}$V$, $\frac{mm}{c}$ & \cellcolor[HTML]{CBCEFB}$I$, $c^{-1}$ & \cellcolor[HTML]{CBCEFB}$V$, $\frac{mm}{c}$ & \cellcolor[HTML]{CBCEFB}$I$, $c^{-1}$ & \cellcolor[HTML]{CBCEFB}$V$, $\frac{mm}{c}$ & \cellcolor[HTML]{CBCEFB}$I$, $c^{-1}$ & \cellcolor[HTML]{CBCEFB}$V$, $\frac{mm}{c}$ & \cellcolor[HTML]{CBCEFB}$I$, $c^{-1}$ \\ \hline
+1                        & -4.53                                       & 40661.8                               & \cellcolor[HTML]{CBCEFB}-4.58               & 20124.4                               & \cellcolor[HTML]{CBCEFB}-4.61               & 12497                                 & \cellcolor[HTML]{CBCEFB}-4.57               & 31888                                 \\ \hline
+2                        & -3.44                                       & 40668.6                               & \cellcolor[HTML]{CBCEFB}-3.53               & 20031.5                               & \cellcolor[HTML]{CBCEFB}-3.52               & 12514                                 & \cellcolor[HTML]{CBCEFB}-3.39               & 31577                                 \\ \hline
+3                        & -2.8                                        & 40588.8                               & \cellcolor[HTML]{CBCEFB}-2.78               & 20077.2                               & \cellcolor[HTML]{CBCEFB}-2.78               & 12490                                 & \cellcolor[HTML]{CBCEFB}-2.78               & 31168                                 \\ \hline
+4                        & -2.36                                       & 40602.7                               & \cellcolor[HTML]{CBCEFB}-2.02               & 20069.2                               & \cellcolor[HTML]{CBCEFB}-1.95               & 12482                                 & \cellcolor[HTML]{CBCEFB}-1.8                & 29899                                 \\ \hline
+5                        & -1.97                                       & 40605.9                               & \cellcolor[HTML]{CBCEFB}-1.53               & 20055.5                               & \cellcolor[HTML]{CBCEFB}-1.26               & 12426                                 & \cellcolor[HTML]{CBCEFB}-1.54               & 29181                                 \\ \hline
+6                        & -1.52                                       & 40543.7                               & \cellcolor[HTML]{CBCEFB}-1.37               & 20005.9                               & \cellcolor[HTML]{CBCEFB}-1.38               & 12480                                 & \cellcolor[HTML]{CBCEFB}-1.38               & 28696                                 \\ \hline
+7                        & -1.73                                       & 40653.3                               & \cellcolor[HTML]{CBCEFB}-1.07               & 19962.6                               & \cellcolor[HTML]{CBCEFB}-1.06               & 12482                                 & \cellcolor[HTML]{CBCEFB}-1.09               & 27302                                 \\ \hline
+8                        & -2.17                                       & 40602.8                               & \cellcolor[HTML]{CBCEFB}-0.79               & 19938.4                               & \cellcolor[HTML]{CBCEFB}-0.78               & 12476                                 & \cellcolor[HTML]{CBCEFB}-0.79               & 25326                                 \\ \hline
+9                        & -2.59                                       & 40672.6                               & \cellcolor[HTML]{CBCEFB}-1.17               & 19971.1                               & \cellcolor[HTML]{CBCEFB}-0.46               & 12459.4                               & \cellcolor[HTML]{CBCEFB}-0.84               & 25703                                 \\ \hline
+10                       & -1.63                                       & 40610.7                               & \cellcolor[HTML]{CBCEFB}-2.21               & 20047.1                               & \cellcolor[HTML]{CBCEFB}                    &                                       & \cellcolor[HTML]{CBCEFB}-1.01               & 26762                                 \\ \hline
+11                       & -1.36                                       & 40623.1                               & \cellcolor[HTML]{CBCEFB}                    &                                       & \cellcolor[HTML]{CBCEFB}                    &                                       & \cellcolor[HTML]{CBCEFB}-0.45               & 22967                                 \\ \hline
+12                       & -0.74                                       & 40605.6                               & \cellcolor[HTML]{CBCEFB}                    &                                       & \cellcolor[HTML]{CBCEFB}                    &                                       & \cellcolor[HTML]{CBCEFB}-0.05               & 22042                                 \\ \hline
+13                       & -1.86                                       & 40658.6                               & \cellcolor[HTML]{CBCEFB}                    &                                       & \cellcolor[HTML]{CBCEFB}                    &                                       & \cellcolor[HTML]{CBCEFB}                    &                                       \\ \hline
+1                        & 4.54                                        & 40302.2                               & \cellcolor[HTML]{CBCEFB}4.59                & 19668.5                               & \cellcolor[HTML]{CBCEFB}5.01                & 12286                                 & \cellcolor[HTML]{CBCEFB}4.55                & 31986                                 \\ \hline
+2                        & 3.44                                        & 39584.4                               & \cellcolor[HTML]{CBCEFB}3.53                & 19128.4                               & \cellcolor[HTML]{CBCEFB}3.54                & 11978                                 & \cellcolor[HTML]{CBCEFB}3.4                 & 31644                                 \\ \hline
+3                        & 2.83                                        & 38510.7                               & \cellcolor[HTML]{CBCEFB}2.81                & 18152.2                               & \cellcolor[HTML]{CBCEFB}2.81                & 11257                                 & \cellcolor[HTML]{CBCEFB}2.81                & 31262                                 \\ \hline
+4                        & 2.38                                        & 37214.9                               & \cellcolor[HTML]{CBCEFB}2.04                & 17239.7                               & \cellcolor[HTML]{CBCEFB}1.98                & 10889                                 & \cellcolor[HTML]{CBCEFB}1.83                & 30085                                 \\ \hline
+5                        & 2.4                                         & 37582.1                               & \cellcolor[HTML]{CBCEFB}1.55                & 19009.9                               & \cellcolor[HTML]{CBCEFB}1.3                 & 12104                                 & \cellcolor[HTML]{CBCEFB}1.54                & 29355                                 \\ \hline
+6                        & 1.55                                        & 39508.1                               & \cellcolor[HTML]{CBCEFB}1.38                & 19309.9                               & \cellcolor[HTML]{CBCEFB}1.38                & 11992                                 & \cellcolor[HTML]{CBCEFB}1.38                & 28842                                 \\ \hline
+7                        & 1.76                                        & 38744.9                               & \cellcolor[HTML]{CBCEFB}1.09                & 19603.1                               & \cellcolor[HTML]{CBCEFB}1.06                & 12272                                 & \cellcolor[HTML]{CBCEFB}1.09                & 27594                                 \\ \hline
+8                        & 2.2                                         & 36912.4                               & \cellcolor[HTML]{CBCEFB}0.78                & 19687.9                               & \cellcolor[HTML]{CBCEFB}1.18                & 12384                                 & \cellcolor[HTML]{CBCEFB}0.8                 & 25754                                 \\ \hline
+9                        & 2.62                                        & 37876.4                               & \cellcolor[HTML]{CBCEFB}1.23                & 19465.5                               & \cellcolor[HTML]{CBCEFB}0.91                & 12438                                 & \cellcolor[HTML]{CBCEFB}0.84                & 26148                                 \\ \hline
+10                       & 1.66                                        & 39095.3                               & \cellcolor[HTML]{CBCEFB}2.24                & 16848.9                               &                                             &                                       & \cellcolor[HTML]{CBCEFB}1.01                & 27090                                 \\ \hline
+11                       & 1.36                                        & 39988.1                               &                                             &                                       &                                             &                                       & \cellcolor[HTML]{CBCEFB}0.46                & 23339                                 \\ \hline
+12                       & 0.76                                        & 40525                                 &                                             &                                       &                                             &                                       & \cellcolor[HTML]{CBCEFB}0.08                & 22188                                 \\ \hline
+13                       & 1.89                                        & 38158.2                               &                                             &                                       &                                             &                                       &                                             &                                       \\ \hline
+\end{tabular}
+\end{table}
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.75\textwidth]{gr11}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.75\textwidth]{gr2}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.75\textwidth]{gr3}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.75\textwidth]{gr4}
+\end{center}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
